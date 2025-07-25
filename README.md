@@ -10,3 +10,5 @@ To authenticate, the script needs your `authToken` cookie. Here's how to find it
 5. Look under the **Headers** section for a `Cookie` header.
 6. Find a value like: authToken=7edb8a0d-c95a-4002-b6e2-**********
 
+To obtain the hashes dictionary, open your browser's developer console (press F12, go to the Console tab), copy the content of the hash-capture.js file, paste it into the console, and press Enter.
+Then, click on the correct answers during the game. Each click will log the SHA-256 hash of the displayed image, associated with the selected name.
